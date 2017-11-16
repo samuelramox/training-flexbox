@@ -1,0 +1,57 @@
+.header {
+  height: 73.26px;
+  border-bottom: 1px solid hsla(0, 0%, 51%, .2);
+  &-menu {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  &-list {
+    float: left;
+    margin-left: 10px;
+    font-weight: 700;
+    .fa-angle-down {
+      font-size: 0.65em;
+      font-weight: 700;
+    }
+    .menu-space {
+      letter-spacing: -2px;
+    }
+  }
+}
+
+.header-services {
+  .header-list {
+    .header-text {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 8px;
+      color: #777;
+      font-weight: lighter;
+      .fa-angle-down {
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+.-g1 {
+  color: $g1;
+}
+
+.-ge {
+  color: $ge;
+}
+
+.-gshow {
+  color: $gshow;
+}
+
+.-gtech {
+  color: $gtech;
+}
+
+.-gvideos {
+  color: $gvideos;
+}

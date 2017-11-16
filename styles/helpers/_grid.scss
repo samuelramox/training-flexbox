@@ -1,0 +1,36 @@
+.row{
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.col {
+  margin: 10px;
+  flex: 1 1 0;
+
+  //Temp
+  border: 1px solid;
+}
+.col-one-half {
+  margin: 10px;
+  flex: 2 2 22px;
+  border: 1px solid;
+}
+
+.col-two-thirds {
+  flex: 4 4 66px;
+  margin: 10px;
+
+  //Temp
+  border: 1px solid red;
+}
+
+@for $i from 1 through 12 {
+  &.col-#{$i} {
+    flex: none;
+    width: ($i / 12) * 100%;
+
+    //Temp
+    border: 1px solid greenyellow;
+  }
+}
