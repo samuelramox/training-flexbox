@@ -1,10 +1,70 @@
 * {
   font-family: opensans-bold;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
+a {
+  text-decoration: none;
 }
 
+ul .fa {
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.-padding-center {
+  padding: 0 20px;
+}
+
+// Colors
+.-g1 {
+  color: $g1;
+}
+
+.-ge {
+  color: $ge;
+}
+
+.-gshow {
+  color: $gshow;
+}
+
+.-gtech {
+  color: $gtech;
+}
+
+.-gvideos {
+  color: $gvideos;
+}
+
+.-blue {
+  color: $blue;
+}
+
+.-gray {
+  color: $gray;
+}
+
+// Borders
+.border {
+  border: 1px solid $gray;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $border;
+}
+
+.border-right {
+  border-right: 1px solid $border;
+}
+
+.border-left {
+  border-left: 1px solid $border;
+}

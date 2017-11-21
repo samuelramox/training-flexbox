@@ -1,57 +1,117 @@
-.header {
-  height: 73.26px;
-  border-bottom: 1px solid hsla(0, 0%, 51%, .2);
-  &-menu {
-    list-style: none;
-    float: left;
-    padding: 0;
+.menu {
+  height: 80px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+// Right side
+.logo {
+  width: 4.5em;
+  margin-right: 15px;
+  h1 {
     margin: 0;
+    padding: 0;
   }
-  &-list {
-    float: left;
+}
+
+.menu-home {
+  display: flex;
+  .menu-nav {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      padding: 7px;
+      font-size: .90em;
+    }
+  }
+  @media (max-width: 720px) {
+    ul .fa {
+      display: none;
+    }
+  }
+}
+
+// Left side
+.menu-services {
+  display: flex;
+  align-items: center;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 12px;
+  }
+  li {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 0.5em;
+  }
+  .services-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  @media (max-width: 818px) {
+    #account {
+      display: none;
+    }
+  }
+  @media (max-width: 740px) {
+    #email {
+      display: none;
+    }
+    .menu-search {
+      display: none;
+    }
+    #search-mobile {
+      display: block;
+    }
+  }
+}
+
+.menu-search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  height: 30px;
+  font-size: 0.6em;
+  padding: 5px;
+  .fa {
+    font-size: 0.75rem;
+    margin-left: 5px;
+  }
+  input {
+    border: none;
     margin-left: 10px;
-    font-weight: 700;
-    .fa-angle-down {
-      font-size: 0.65em;
-      font-weight: 700;
-    }
-    .menu-space {
-      letter-spacing: -2px;
-    }
+    outline: none;
+    height: 1.25rem;
+  }
+  button {
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.5rem;
+    border: none;
+    padding: 0;
+    background: none;
+    padding-left: 20px;
+    display: none;
   }
 }
 
-.header-services {
-  .header-list {
-    .header-text {
-      font-family: Arial, sans-serif;
-      text-transform: uppercase;
-      font-size: 8px;
-      color: #777;
-      font-weight: lighter;
-      .fa-angle-down {
-        font-size: 8px;
-      }
-    }
+.menu-user {
+  padding-left: 16px;
+  .fa {
+    font-size: 1.25em;
   }
 }
 
-.-g1 {
-  color: $g1;
-}
-
-.-ge {
-  color: $ge;
-}
-
-.-gshow {
-  color: $gshow;
-}
-
-.-gtech {
-  color: $gtech;
-}
-
-.-gvideos {
-  color: $gvideos;
+#search-mobile {
+  display: none;
 }

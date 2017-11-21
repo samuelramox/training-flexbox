@@ -9,85 +9,191 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 </head>
 
 <body>
-  <section class="container header">
-    <header class="row">
-      <div class="col">
-        <div class="header-logo-box">
-          <a href="#" title="Globo.com">
-            <img class="header-logo" src="./images/globo.svg" alt="Globo.com">
-          </a>
+  <header class="menu border-bottom -alig-center">
+    <div class=" container ">
+      <div class="row -justify-between ">
+        <div class="menu-home -alig-center">
+          <div class="logo">
+            <h1>
+              <a href="#" title="Globo.com">
+                <img class="header-logo" src="./images/globo.svg" alt="Globo.com">
+              </a>
+            </h1>
+          </div>
+          <div class="menu-nav">
+            <ul>
+              <li class="-g1">
+                <span>g1
+                  <i class="fa fa-angle-down" aria-hidden="true "></i>
+                </span>
+              </li>
+              <li class="-ge">
+                <span>ge
+                  <i class="fa fa-angle-down " aria-hidden="true "></i>
+                </span>
+              </li>
+              <li class="-gshow">
+                <span>gshow
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </li>
+              <li class="-gtech ">
+                <span>tech</span>
+              </li>
+              <li class="-gvideos ">
+                <span>vídeos
+                  <i class="fa fa-angle-down" aria-hidden="true "></i>
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-one-half">
-        <div class="header-actions">
-          <ul class="header-menu">
-            <li class="header-list -g1">
-              <span class="menu-space">g1
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </li>
-            <li class="header-list -ge">
-              <span>ge
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </li>
-            <li class="header-list -gshow">
-              <span>gshow
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </li>
-            <li class="header-list -gtech">
-              <span>tech</span>
-            </li>
-            <li class="header-list -gvideos">
-              <span>videos
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col">
-        <div class="header-services">
-          <ul class="header-menu">
-            <li class="header-list">
-              <span class="header-text">Assine já</span>
-            </li>
-            <li class="header-list">
-              <span class="header-text">Minha conta</span>
-            </li>
-            <li class="header-list">
-              <span class="header-text">E-mail
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col">
-        <div class="header-search">
-          <input class="search" type="text" placeholder="encontre na globo.com">
-        </div>
-      </div>
-      <div class="col">
-        <div class="header-user">
-          <i class="fa fa-user-o" aria-hidden="true"></i>
-        </div>
-      </div>
-    </header>
-  </section>
 
-  <section class="container">
+        <div class="menu-services">
+          <div class="services-nav">
+            <ul class="-gray">
+              <li class="">
+                <span class="header-text">Assine já</span>
+              </li>
+              <li id="account">
+                <span class="header-text">Minha conta</span>
+              </li>
+              <li id="email">
+                <span class="header-text">E-mail
+                  <i class="fa fa-angle-down" aria-hidden="true "></i>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-search border">
+            <i class="fa fa-search -blue" aria-hidden="true "></i>
+            <form action=" ">
+              <input class="search" type="text" placeholder="encontre na globo.com">
+              <button type="submit">buscar</button>
+            </form>
+          </div>
+          <div id="search-mobile">
+            <i class="fa fa-search -blue" aria-hidden="true "></i>
+          </div>
+          <div class="menu-user">
+            <i class="fa fa-user-o -blue" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="content container">
     <div class="row">
-      <div class="col">6</div>
-      <div class="col">6</div>
+      <div class="col-6 -flex-direction-column">
+        <div class="content-news -g1 border-bottom">
+          <div class="new -big">
+            <h2>Lorem ipsum dolor sit amet ipsum dolor consectetur adipisicing</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content-news  border-bottom -g1 -justify-around">
+          <div class="new">
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+          <div class="new">
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+          <div class="new">
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="content-news -g1 -justify-around">
+          <div class="new">
+            <img src="images/livia.jpg" alt="">
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+          <div class="new">
+            <img src="images/livia.jpg" alt="">
+
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+          <div class="new">
+            <img src="images/livia.jpg" alt="">
+            <h2>Lorem ipsum dolor consectetur adipisicingt</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 content-news border-left -ge -flex-direction-column -padding-center">
+        <div class="new">
+          <img src="images/livia.jpg" alt="">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+        <div class="new">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+        <div class="new">
+          <img src="images/livia.jpg" alt="">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-3 content-news border-left -gshow -flex-direction-column -padding-center">
+        <div class="new">
+          <img src="images/livia.jpg" alt="">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+        <div class="new">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+        <div class="new">
+          <!-- <img src="images/livia.jpg" alt=""> -->
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 </body>
-<script src="./scripts/main.js"></script>
 
 </html>

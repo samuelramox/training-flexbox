@@ -1,36 +1,126 @@
-.row{
-  display: flex;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.col {
-  margin: 10px;
-  flex: 1 1 0;
-
-  //Temp
-  border: 1px solid;
-}
-.col-one-half {
-  margin: 10px;
-  flex: 2 2 22px;
-  border: 1px solid;
-}
-
-.col-two-thirds {
-  flex: 4 4 66px;
-  margin: 10px;
-
-  //Temp
-  border: 1px solid red;
-}
-
-@for $i from 1 through 12 {
-  &.col-#{$i} {
-    flex: none;
-    width: ($i / 12) * 100%;
-
-    //Temp
-    border: 1px solid greenyellow;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  @media (max-width: 720px) {
+    width: 90%;
   }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Columns
+.col-1 {
+  width: 8.333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-2 {
+  width: 16.666%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-3 {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-4 {
+  width: 33.333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-5 {
+  width: 41.666%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-6 {
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-7 {
+  width: 58.333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-8 {
+  width: 66.666%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-9 {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-10 {
+  width: 83.333%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-11 {
+  width: 91.666%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-12 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+// Flexbox
+.-justify-between {
+  justify-content: space-between;
+}
+
+.-justify-around {
+  justify-content: space-around;
+}
+
+.-justify-column {
+  justify-content: column;
+}
+
+.-justify-center {
+  justify-content: center;
+}
+
+.-alig-center {
+  align-items: center;
+}
+
+.-flex-direction-column {
+  flex-direction: column;
 }
