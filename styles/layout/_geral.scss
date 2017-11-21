@@ -7,6 +7,10 @@
 
 a {
   text-decoration: none;
+  color: inherit;
+  &:visited {
+    color: none;
+  }
 }
 
 ul .fa {
@@ -54,6 +58,30 @@ img {
 
 .-gray {
   color: $gray;
+}
+
+.-g1-light {
+  color: $g1-light;
+}
+
+.-ge-light {
+  color: $ge-light;
+}
+
+.-gshow-light {
+  color: $gshow-light;
+}
+
+.-gtech-light {
+  color: $gtech-light;
+}
+
+.-gvideos-light {
+  color: $gvideos-light;
+}
+
+.-blue-light {
+  color: $blue-light;
 }
 
 .-gray-light {

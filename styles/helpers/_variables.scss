@@ -1,10 +1,18 @@
+// Basic colors
 $logo: #046bd7;
-$g1: #d20e18;
-$ge: #48aa4b;
-$gshow: #ff8f49;
-$gtech: #676767;
-$gvideos: #2880DD;
+$g1: #D20E18; //#B00D17;
+$ge: #209E2E;
+$gshow: #FF7F2D;
+$gtech: #666666;
+$gvideos: #1D83F2;
 $blue: #2880dd;
-$gray: #9B9B9B;
+$gray: #A9A9A9;
+$border: #E1E1E1;
+// Light colors
+$g1-light: lighten($g1, 20%);
+$ge-light: lighten($ge, 20%);
+$gshow-light: lighten($gshow, 20%);
+$gtech-light: lighten($gtech, 20%);
+$gvideos-light: lighten($gvideos, 20%);
+$blue-light: lighten($blue, 20%);
 $gray-light: lighten($gray, 20%);
-$border: #EDEDED;
