@@ -21,7 +21,6 @@
     ul {
       list-style: none;
       display: flex;
-      flex-wrap: wrap;
     }
     li {
       padding: 7px;
@@ -42,7 +41,6 @@
   ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     padding-right: 12px;
   }
   li {
@@ -54,7 +52,6 @@
   .services-nav {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
   }
   @media (max-width: 818px) {
