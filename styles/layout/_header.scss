@@ -32,6 +32,11 @@
       display: none;
     }
   }
+  @media (max-width: 500px) {
+    li {
+      margin-right: 20px;
+    }
+  }
 }
 
 // Left side
@@ -69,6 +74,9 @@
     #search-mobile {
       display: block;
     }
+  }
+  @media (max-width: 500px) {
+    display: none;
   }
 }
 
