@@ -34,30 +34,51 @@ img {
 // Colors
 .-g1 {
   color: $g1;
+  a:hover {
+    color: $g1-light;
+  }
 }
 
 .-ge {
   color: $ge;
+  a:hover {
+    color: $ge-light;
+  }
 }
 
 .-gshow {
   color: $gshow;
+  a:hover {
+    color: $gshow-light;
+  }
 }
 
 .-gtech {
   color: $gtech;
+  a:hover {
+    color: $gtech-light;
+  }
 }
 
 .-gvideos {
   color: $gvideos;
+  a:hover {
+    color: $gvideos-light;
+  }
 }
 
 .-blue {
   color: $blue;
+  a:hover {
+    color: $blue-light;
+  }
 }
 
 .-gray {
   color: $gray;
+  a:hover {
+    color: $gray-light;
+  }
 }
 
 .-g1-light {
