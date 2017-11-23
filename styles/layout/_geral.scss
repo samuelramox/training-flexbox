@@ -1,5 +1,4 @@
 * {
-  font-family: opensans-bold;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,11 +10,6 @@ a {
   &:visited {
     color: none;
   }
-}
-
-ul .fa {
-  font-size: 0.688rem;
-  font-weight: 700;
 }
 
 img {
@@ -107,6 +101,10 @@ img {
 
 .-gray-light {
   color: $gray-light;
+}
+
+.-gray-dark {
+  color: $gray-dark;
 }
 
 // Borders

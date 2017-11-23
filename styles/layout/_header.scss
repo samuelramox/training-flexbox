@@ -17,6 +17,8 @@
 
 .menu-home {
   display: flex;
+  font-family: $opensans;
+  font-weight: bold;
   .menu-nav {
     ul {
       list-style: none;
@@ -24,7 +26,11 @@
     }
     li {
       padding: 7px;
-      font-size: .90em;
+      font-size: .900em;
+      .fa-angle-down {
+        font-size: .700em;
+        font-weight: bold;
+      }
     }
   }
   @media (max-width: 720px) {
@@ -43,16 +49,19 @@
 .menu-services {
   display: flex;
   align-items: center;
+  font-family: $arial;
+  text-transform: uppercase;
   ul {
     list-style: none;
     display: flex;
     padding-right: 12px;
   }
   li {
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
     padding: 5px;
     font-size: 0.5em;
+    .fa-angle-down {
+      font-weight: bold;
+    }
   }
   @media (max-width: 818px) {
     #account {
