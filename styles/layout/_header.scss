@@ -49,20 +49,6 @@
 .menu-services {
   display: flex;
   align-items: center;
-  font-family: $arial;
-  text-transform: uppercase;
-  ul {
-    list-style: none;
-    display: flex;
-    padding-right: 12px;
-  }
-  li {
-    padding: 5px;
-    font-size: 0.5em;
-    .fa-angle-down {
-      font-weight: bold;
-    }
-  }
   @media (max-width: 818px) {
     #account {
       display: none;
@@ -84,10 +70,26 @@
   }
 }
 
+.menu-services-nav {
+  font-family: $arial;
+  text-transform: uppercase;
+  margin-right: 12px;
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+    padding: 5px;
+    font-size: 0.5em;
+    .fa-angle-down {
+      font-weight: bold;
+    }
+  }
+}
+
 .menu-search {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   width: 200px;
   height: 30px;
   font-size: 0.6em;
